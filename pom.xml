@@ -7,7 +7,7 @@
   <groupId>.com</groupId>
   <artifactId>OnlineCourseManagementSystem</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <packaging>war</packaging>
 
   <name>OnlineCourseManagementSystem Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -27,12 +27,13 @@
       <scope>test</scope>
     </dependency> 
     <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-	<dependency>
-	 <groupId>mysql</groupId>
-     <artifactId>mysql-connector-java</artifactId>
-     <version>8.0.30</version>
+    <dependency>
+    <groupId>springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>1.2.6</version>
     </dependency>
   </dependencies>
+  
 
   <build>
     <finalName>OnlineCourseManagementSystem</finalName>
